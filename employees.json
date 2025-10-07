@@ -1,18 +1,1 @@
-[
-  {
-    "id": "1",
-    "name": "Alice",
-    "salary": 50000,
-    "position": "Developer",
-    "addedBy": "IT",
-    "createdAt": "2025-10-07T00:00:00.000Z"
-  },
-  {
-    "id": "2",
-    "name": "Bob",
-    "salary": 60000,
-    "position": "Manager",
-    "addedBy": "HR",
-    "createdAt": "2025-10-07T00:00:00.000Z"
-  }
-]
+[]
