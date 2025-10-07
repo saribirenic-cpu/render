@@ -8,7 +8,9 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const filePath = "api-key-server/employees.json";
+const path = require("path");
+const filePath = path.join(__dirname, "employees.json");
+
 const apiKeys = [];
 
 // Load existing employees
